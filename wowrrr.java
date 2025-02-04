@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class wowrrr {
+    public static void main(String[] args) {
+        // Print a welcome message
+        System.out.println("Hello, World!");
+
+        // Create a Scanner object for user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask for the user's name
+        System.out.print("What is your name? ");
+        String name = scanner.nextLine();
+
+        // Print a personalized greeting
+        System.out.println("Welcome, " + name + "!");
+
+        // Close the scanner
+        scanner.close();
+    }
+}
